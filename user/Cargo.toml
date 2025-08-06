@@ -1,0 +1,12 @@
+[package]
+name = "user"
+version = "0.1.0"
+edition = "2024"
+authors = ["Haobo Gu <haobogu@outlook.com>"]
+description = "Test"
+license = "MIT OR Apache-2.0"
+homepage = "https://https://github.com/haobogu/bindgen-shared-c-repo"
+repository = "https://https://github.com/haobogu/bindgen-shared-c-repo"
+[dependencies]
+user-a-sys-test-haobo = { path = "../user-a-sys", version = "0.1.0" }
+user-b-sys-test-haobo = { path = "../user-b-sys", version = "0.1.0" }
