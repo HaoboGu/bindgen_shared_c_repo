@@ -7,9 +7,10 @@ description = "Test"
 license = "MIT OR Apache-2.0"
 homepage = "https://https://github.com/haobogu/bindgen-shared-c-repo"
 repository = "https://https://github.com/haobogu/bindgen-shared-c-repo"
+
 [dependencies]
-core-sys-test-haobo = { path = "../core-sys", version = "0.1.0" }
+core-sys-test-haobo = { version = "0.1.0" }
 
 [build-dependencies]
 bindgen = "0.72" # 用于生成绑定
-core-sys-test-haobo = { path = "../core-sys", version = "0.1.0" }
+core-sys-test-haobo = { version = "0.1.0" }
