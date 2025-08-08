@@ -74,9 +74,9 @@ dependencies = [
 
 [[package]]
 name = "core-sys-test-haobo"
-version = "0.1.0"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4cca152d5e3da4c042771357aa8012aeb95694613a8ca1cc11dfbbafe1cf41f2"
+checksum = "dc9753621ebca7be4bfd4002f677bf56b38a0d65101270e5a8a6ba43638c7ec5"
 dependencies = [
  "cc",
 ]
@@ -234,7 +234,7 @@ checksum = "5a5f39404a5da50712a4c1eecf25e90dd62b613502b7e925fd4e4d19b5c96512"
 
 [[package]]
 name = "user"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "user-a-sys-test-haobo",
  "user-b-sys-test-haobo",
@@ -242,19 +242,23 @@ dependencies = [
 
 [[package]]
 name = "user-a-sys-test-haobo"
-version = "0.1.0"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5b5ee73335735ea756481aacd6ade245a261551681ee8e28865751e8c033a32f"
+checksum = "035849e022142f0dc862490340e4c5e4af169867423084684ba511c1afc04203"
 dependencies = [
  "bindgen",
+ "cc",
  "core-sys-test-haobo",
 ]
 
 [[package]]
 name = "user-b-sys-test-haobo"
-version = "0.1.0"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "aadd5524496cba889b3060a8bc00af4164113ad911cbbeeb3ebf2dce80862eb8"
 dependencies = [
  "bindgen",
+ "cc",
  "core-sys-test-haobo",
 ]
 

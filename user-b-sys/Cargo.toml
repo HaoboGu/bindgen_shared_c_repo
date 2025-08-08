@@ -1,6 +1,6 @@
 [package]
 name = "user-b-sys-test-haobo"
-version = "0.1.0"
+version = "0.3.0"
 edition = "2024"
 authors = ["Haobo Gu <haobogu@outlook.com>"]
 description = "Test"
@@ -9,8 +9,8 @@ homepage = "https://https://github.com/haobogu/bindgen-shared-c-repo"
 repository = "https://https://github.com/haobogu/bindgen-shared-c-repo"
 
 [dependencies]
-core-sys-test-haobo = { version = "0.1.0" }
+core-sys-test-haobo = { version = "0.2.0" }
 
 [build-dependencies]
 bindgen = "0.72" # 用于生成绑定
-core-sys-test-haobo = { version = "0.1.0" }
+cc = "1.0"
