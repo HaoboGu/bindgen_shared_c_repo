@@ -242,9 +242,9 @@ dependencies = [
 
 [[package]]
 name = "user-a-sys-test-haobo"
-version = "0.3.0"
+version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "035849e022142f0dc862490340e4c5e4af169867423084684ba511c1afc04203"
+checksum = "86efeed2ae11a2f4395fe4d534d91da326327f2baefc136be633e1421728077b"
 dependencies = [
  "bindgen",
  "cc",

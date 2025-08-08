@@ -3,12 +3,6 @@ use std::path::PathBuf;
 
 fn main() {
     // Format: DEP_<LIB_NAME>_INCLUDE
-println!("cargo:warning=Available environment variables for core-sys:");
-    for (key, value) in env::vars() {
-        if key.starts_with("DEP_") {
-            println!("cargo:warning={} = {}", key, value);
-        }
-    }
     let third_party_path = PathBuf::from(env::var("DEP_THE_C_LIBRARY_THIRD_PARTY_REPO_PATH").unwrap());
     let include_path = third_party_path.join("include");
     // Compile C code to library
